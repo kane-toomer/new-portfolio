@@ -1,15 +1,9 @@
 import { Fragment } from "react";
 import { Tab } from "@headlessui/react";
-import { ChevronRightIcon, HomeIcon } from "@heroicons/react/20/solid";
-
-const pages = [
-	{ name: "Projects", href: "#", current: false },
-	{ name: "Project Nero", href: "#", current: true },
-];
 
 const tabs = [
 	{
-		name: "Design",
+		name: "Project 1",
 		features: [
 			{
 				name: "Adaptive and modular",
@@ -23,7 +17,7 @@ const tabs = [
 		],
 	},
 	{
-		name: "Architecture",
+		name: "Project 2",
 		features: [
 			{
 				name: "Natural wood options",
@@ -37,7 +31,7 @@ const tabs = [
 		],
 	},
 	{
-		name: "Considerations",
+		name: "Project 3",
 		features: [
 			{
 				name: "Helpful around the home",
@@ -47,20 +41,6 @@ const tabs = [
 					"https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-03.jpg",
 				imageAlt:
 					"Walnut organizer base with white polycarbonate trays in the kitchen with various kitchen utensils.",
-			},
-		],
-	},
-	{
-		name: "Final Product",
-		features: [
-			{
-				name: "Everything you'll need",
-				description:
-					"The Organize base set includes the pen, phone, small, and large trays to help you group all your essential items. Expand your set with the drink coaster and headphone stand add-ons.",
-				imageSrc:
-					"https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-04.jpg",
-				imageAlt:
-					"Walnut organizer system on black leather desk mat on top of white desk.",
 			},
 		],
 	},
@@ -78,42 +58,11 @@ export default function Project1() {
 					aria-labelledby="features-heading"
 					className="mx-auto max-w-7xl py-16 sm:px-2 lg:px-8">
 					<div className="mx-auto max-w-2xl px-4 lg:max-w-none lg:px-0">
-						<nav className="flex mb-10" aria-label="Breadcrumb">
-							<ol role="list" className="flex items-center space-x-4">
-								<li>
-									<div>
-										<a href="#" className="text-gray-400 hover:text-gray-500">
-											<HomeIcon
-												className="h-5 w-5 flex-shrink-0"
-												aria-hidden="true"
-											/>
-											<span className="sr-only">Home</span>
-										</a>
-									</div>
-								</li>
-								{pages.map((page) => (
-									<li key={page.name}>
-										<div className="flex items-center">
-											<ChevronRightIcon
-												className="h-5 w-5 flex-shrink-0 text-gray-400"
-												aria-hidden="true"
-											/>
-											<a
-												href={page.href}
-												className="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700"
-												aria-current={page.current ? "page" : undefined}>
-												{page.name}
-											</a>
-										</div>
-									</li>
-								))}
-							</ol>
-						</nav>
 						<div className="max-w-3xl">
 							<h1
 								id="features-heading"
 								className="font-bold tracking-tight text-gray-900 text-4xl">
-								Project 1
+								Project One
 							</h1>
 							<p className="mt-4 text-gray-500">
 								The Organize modular system offers endless options for arranging
@@ -160,6 +109,19 @@ export default function Project1() {
 													<p className="mt-2 text-sm text-gray-500">
 														{feature.description}
 													</p>
+													<div className="mt-10 flex items-center gap-x-6">
+														<a
+															href="#"
+															className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+															View Live Site
+														</a>
+														<a
+															href="https://github.com/kane-toomer"
+															className="text-sm font-semibold leading-6 text-gray-900">
+															View GitHub Repository{" "}
+															<span aria-hidden="true">→</span>
+														</a>
+													</div>
 												</div>
 												<div className="lg:col-span-7">
 													<div className="aspect-h-1 aspect-w-2 overflow-hidden rounded-lg bg-gray-100 sm:aspect-h-2 sm:aspect-w-5">

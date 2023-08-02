@@ -7,8 +7,8 @@ export default function Example() {
 		<div className="bg-white">
 			<div className="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20">
 				<NavigationBar />
-				<div className="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:pt-40">
-					<div className="px-6 lg:px-0 lg:pt-4">
+				<div className="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:pt-28">
+					<div className="px-6 lg:px-0">
 						<div className="mx-auto max-w-2xl">
 							<div className="max-w-lg">
 								<div className="mt-24 sm:mt-32 lg:mt-16">
@@ -31,7 +31,8 @@ export default function Example() {
 								<p className="mt-6 text-lg leading-8 text-gray-600">
 									I am a currently pursuing my Master's Degree in Computer
 									Science from Grand Canyon University. My goal is to become a
-									Software Engineer and have immediate impact.
+									Backend Software Engineer and have immediate impact on an
+									organization.
 								</p>
 								<div className="mt-10 flex items-center gap-x-6">
 									<a

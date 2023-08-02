@@ -1,10 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-import Project1 from "./pages/Project1";
+import Landing from "./pages/Landing";
 
 function App() {
-	return <Project1 />;
+	return <Landing />;
 }
 
 export default App;
