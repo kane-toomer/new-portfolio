@@ -3,12 +3,12 @@ import { CheckCircleIcon } from "@heroicons/react/20/solid";
 import headshot from "../assets/images/headshot.svg";
 
 const comptency1 = [
-	"Frontend Development",
-	"Backend Development",
-	"Design and Analysis of Algorithms",
-	"Parallel Programming",
-	"Machine Learning",
-	"Artificial Intelligence",
+	"Java",
+	"Spring Boot",
+	"Node.js",
+	"MongoDB",
+	"React",
+	"React Native",
 ];
 
 export default function About() {
@@ -27,10 +27,12 @@ export default function About() {
 								About me
 							</h1>
 							<p className="mt-6 text-lg leading-8 text-gray-300">
-								My name is Kane Toomer. I am a currently pursuing my Master's
-								Degree in Computer Science from Grand Canyon University. Through
-								my collegiate and personal pursuits, I have experience in
-								variety of Computer Science competencies:
+								My name is Kane Toomer. I am an undergraduate Computer Science
+								student enrolled in Grand Canyon University's Computer Science
+								Bridge Program. Upon successful completion of this program, I
+								will be admitted to GCU's Master of Science in Computer Science.
+								Through my collegiate and personal pursuits, I have experience
+								in variety of Computer Science competencies:
 							</p>
 							<ul
 								role="list"

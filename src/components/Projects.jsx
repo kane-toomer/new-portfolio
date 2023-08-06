@@ -3,40 +3,44 @@ import { Tab } from "@headlessui/react";
 
 const tabs = [
 	{
-		name: "Project 1",
+		name: "Movie Review Application",
 		features: [
 			{
-				name: "Adaptive and modular",
+				name: "Movie Review Application",
 				description:
-					"The Organize base set allows you to configure and evolve your setup as your items and habits change. The included trays and optional add-ons are easily rearranged to achieve that perfect setup.",
+					"This is a movie review application that (other descriptive text). This project was built using React, Tailwind CSS, Java + Spring Boot and MongoDB.",
 				imageSrc:
 					"https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-01.jpg",
 				imageAlt:
 					"Maple organizer base with slots, supporting white polycarbonate trays of various sizes.",
+				liveSiteLink: "",
+				gitHubRepository: "",
 			},
 		],
 	},
 	{
-		name: "Project 2",
+		name: "Library Management System",
 		features: [
 			{
-				name: "Natural wood options",
+				name: "Library Management System",
 				description:
-					"Organize has options for rich walnut and bright maple base materials. Accent your desk with a contrasting material, or match similar woods for a calm and cohesive look. Every base is hand sanded and finished.",
+					"This is a library management system application that (other descriptive text). This project was built using React, Tailwind CSS, Java + Spring Boot and MongoDB.",
 				imageSrc:
 					"https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-02.jpg",
 				imageAlt:
 					"Walnut organizer base with pen, sticky note, phone, and bin trays, next to modular drink coaster attachment.",
+				liveSiteLink: "",
+				gitHubRepository: "",
 			},
 		],
 	},
 	{
-		name: "Project 3",
+		name: "Mobile Application",
 		features: [
 			{
-				name: "Helpful around the home",
+				name: "Mobile Application",
 				description:
-					"Our customers use Organize throughout the house to bring efficiency to many daily routines. Enjoy Organize in your workspace, kitchen, living room, entry way, garage, and more. We can't wait to see how you'll use it!",
+					"This is a untitled mobile application that (other descriptive text). This project was built using React Native, Java + Spring Boot and MongoDB.",
 				imageSrc:
 					"https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-03.jpg",
 				imageAlt:
@@ -53,7 +57,7 @@ function classNames(...classes) {
 export default function Project1() {
 	return (
 		<>
-			<div className="bg-white">
+			<div className="bg-white py-24">
 				<section
 					aria-labelledby="features-heading"
 					className="mx-auto max-w-7xl py-16 sm:px-2 lg:px-8">
@@ -62,12 +66,15 @@ export default function Project1() {
 							<h1
 								id="features-heading"
 								className="font-bold tracking-tight text-gray-900 text-4xl">
-								Project One
+								My Projects
 							</h1>
 							<p className="mt-4 text-gray-500">
-								The Organize modular system offers endless options for arranging
-								your favorite and most used items. Keep everything at reach and
-								in its place, while dressing up your workspace.
+								Welcome to my portfolio's "Projects" section! Here, I showcase a
+								collection of applications that reflect my skills and passion.
+								From full-stack web applications and mobile apps to data
+								analysis and creative designs, each project represents my
+								commitment to problem-solving and continuous learning. Let's
+								explore my creations!
 							</p>
 						</div>
 
@@ -111,12 +118,12 @@ export default function Project1() {
 													</p>
 													<div className="mt-10 flex items-center gap-x-6">
 														<a
-															href="#"
+															href={feature.liveSiteLink}
 															className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 															View Live Site
 														</a>
 														<a
-															href="https://github.com/kane-toomer"
+															href={feature.gitHubRepository}
 															className="text-sm font-semibold leading-6 text-gray-900">
 															View GitHub Repository{" "}
 															<span aria-hidden="true">→</span>

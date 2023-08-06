@@ -4,10 +4,10 @@ import NavigationBar from "./NavigationBar";
 
 export default function Example() {
 	return (
-		<div className="bg-white">
+		<div className="bg-white pb-32">
 			<div className="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20">
 				<NavigationBar />
-				<div className="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:pt-28">
+				<div className="mx-auto max-w-7xl pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:pt-28">
 					<div className="px-6 lg:px-0">
 						<div className="mx-auto max-w-2xl">
 							<div className="max-w-lg">
