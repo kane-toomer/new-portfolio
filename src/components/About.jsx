@@ -2,13 +2,13 @@ import { CheckCircleIcon } from "@heroicons/react/20/solid";
 
 import headshot from "../assets/images/headshot.svg";
 
-const comptency1 = [
-	"Java",
-	"Spring Boot",
-	"Node.js",
-	"MongoDB",
+const comptency = [
 	"React",
 	"React Native",
+	"Java",
+	"Spring Boot",
+	"MongoDB",
+	"Heroku",
 ];
 
 export default function About() {
@@ -27,17 +27,32 @@ export default function About() {
 								About me
 							</h1>
 							<p className="mt-6 text-lg leading-8 text-gray-300">
-								My name is Kane Toomer. I am an undergraduate Computer Science
-								student enrolled in Grand Canyon University's Computer Science
-								Bridge Program. Upon successful completion of this program, I
-								will be admitted to GCU's Master of Science in Computer Science.
-								Through my collegiate and personal pursuits, I have experience
-								in variety of Computer Science competencies:
+								Hello! My name is Kane Toomer, I'm from Las Vegas and I enjoy
+								designing and building things that live on the internet. My
+								passion for computer science started back in 2016 during my
+								senior year of undergrad. I spent most of my time focusing on
+								designing apps and learning to code, often putting more effort
+								into it than my Public Administration degree.
+								{" (: "}
+							</p>
+							<br />
+							<p className="text-lg leading-8 text-gray-300">
+								Post-grad, I attended a coding bootcamp in my hometown and
+								worked on a startup with a friend. I loved every second of it
+								(but unfortunately, the world shut down). This prompted me to go
+								back to school for computer science. Fast forward to today, I am
+								a few weeks away from completing the computer science bridge
+								program at Grand Canyon University and will be starting the
+								Master of Science in Computer Science program in January 2024.
+							</p>
+							<br />
+							<p className="mt-2 text-lg leading-8 text-gray-300 font-medium">
+								Here are a few technologies I’ve been working with recently:
 							</p>
 							<ul
 								role="list"
 								className="mt-10 grid grid-cols-1 gap-x-8 gap-y-3 text-base leading-7 text-white sm:grid-cols-2">
-								{comptency1.map((competencies) => (
+								{comptency.map((competencies) => (
 									<li key={competencies} className="flex gap-x-3">
 										<CheckCircleIcon
 											className="h-7 w-5 flex-none"

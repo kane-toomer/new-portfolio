@@ -1,8 +1,8 @@
-import { ChevronRightIcon, FaceSmileIcon } from "@heroicons/react/24/outline";
-
+import { FaceSmileIcon } from "@heroicons/react/24/outline";
 import NavigationBar from "./NavigationBar";
+import CodeSnippet from "./CodeSnippet";
 
-export default function Example() {
+export default function Hero() {
 	return (
 		<div className="bg-white pb-32">
 			<div className="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20">
@@ -29,10 +29,12 @@ export default function Example() {
 									Hey, I'm Kane!
 								</h1>
 								<p className="mt-6 text-lg leading-8 text-gray-600">
-									I am a currently pursuing my Master's Degree in Computer
-									Science from Grand Canyon University. My goal is to become a
-									Backend Software Engineer and have immediate impact on an
-									organization.
+									I am a dedicated computer science student specializing in
+									building and designing things that live on the internet!{" "}
+									<span className="text-indigo-600 font-medium">
+										Currently, I am focused on obtaining a software engineering
+										internship for Summer 2024.
+									</span>
 								</p>
 								<div className="mt-10 flex items-center gap-x-6">
 									<a
@@ -66,29 +68,14 @@ export default function Example() {
 											<div className="flex bg-gray-800/40 ring-1 ring-white/5">
 												<div className="-mb-px flex text-sm font-medium leading-6 text-gray-400">
 													<div className="border-b border-r border-b-white/20 border-r-white/10 bg-white/5 px-4 py-2 text-white">
-														Landing.jsx
+														Current_GetInternship.jsx
 													</div>
 													<div className="border-r border-gray-600/10 px-4 py-2">
-														Projects.jsx
+														Next_GetJob.jsx
 													</div>
 												</div>
 											</div>
-											<div className="px-6 pt-6 text-white whitespace-pre-line break-words">
-												{`
-                                                    import { ChevronRightIcon, FaceSmileIcon } from "@heroicons/react/24/outline";
-
-                                                    import NavigationBar from "./NavigationBar";
-
-                                                    export default function Example() {
-                                                        return (
-                                                            <div className="bg-white">
-                                                                <div className="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20">
-                                                                    <NavigationBar />
-                                                                    <div className="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:py-40">
-                                                                        <div className="px-6 lg:px-0 lg:pt-4">
-                                                                            
-                                                `}
-											</div>
+											<CodeSnippet />
 										</div>
 									</div>
 									<div

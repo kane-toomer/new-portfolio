@@ -54,7 +54,7 @@ function classNames(...classes) {
 	return classes.filter(Boolean).join(" ");
 }
 
-export default function Project1() {
+export default function Project() {
 	return (
 		<>
 			<div className="bg-white py-24">
@@ -66,7 +66,7 @@ export default function Project1() {
 							<h1
 								id="features-heading"
 								className="font-bold tracking-tight text-gray-900 text-4xl">
-								My Projects
+								Featured Projects
 							</h1>
 							<p className="mt-4 text-gray-500">
 								Welcome to my portfolio's "Projects" section! Here, I showcase a
