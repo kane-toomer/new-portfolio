@@ -29,8 +29,8 @@ export default function Hero() {
 									Hey, I'm Kane!
 								</h1>
 								<p className="mt-6 text-lg leading-8 text-gray-600">
-									I am a dedicated computer science student specializing in
-									building and designing things that live on the internet!{" "}
+									I am a dedicated computer science student that loves building
+									and designing things that live on the internet!{" "}
 									<span className="text-indigo-600 font-medium">
 										Currently, I am focused on obtaining a software engineering
 										internship for Summer 2024.
