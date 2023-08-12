@@ -3,28 +3,11 @@ import { Tab } from "@headlessui/react";
 
 const tabs = [
 	{
-		name: "Movie Review Application",
+		name: "Eazy Rezz",
 		features: [
 			{
-				name: "Movie Review Application",
-				description:
-					"This is a movie review application that (other descriptive text). This project was built using React, Tailwind CSS, Java + Spring Boot and MongoDB.",
-				imageSrc:
-					"https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-01.jpg",
-				imageAlt:
-					"Maple organizer base with slots, supporting white polycarbonate trays of various sizes.",
-				liveSiteLink: "",
-				gitHubRepository: "",
-			},
-		],
-	},
-	{
-		name: "Library Management System",
-		features: [
-			{
-				name: "Library Management System",
-				description:
-					"This is a library management system application that (other descriptive text). This project was built using React, Tailwind CSS, Java + Spring Boot and MongoDB.",
+				name: "Restaurant Booking Management",
+				description: "Null",
 				imageSrc:
 					"https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-02.jpg",
 				imageAlt:
@@ -35,16 +18,32 @@ const tabs = [
 		],
 	},
 	{
-		name: "Mobile Application",
+		name: "Library Genie",
 		features: [
 			{
-				name: "Mobile Application",
+				name: "Library Management System",
 				description:
-					"This is a untitled mobile application that (other descriptive text). This project was built using React Native, Java + Spring Boot and MongoDB.",
+					" I built this project for a CS class in-order to get a better grasp of Java + MongoDB. By building this project, I obtained a solid understanding of ________.",
 				imageSrc:
 					"https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-03.jpg",
 				imageAlt:
 					"Walnut organizer base with white polycarbonate trays in the kitchen with various kitchen utensils.",
+			},
+		],
+	},
+	{
+		name: "Movie Critic",
+		features: [
+			{
+				name: "Movie Review Application",
+				description:
+					"This is a very basic movie review application that features a separation of concerns between the client code and the server code. I built this project in-order to learn SpringBoot. This project was built using React, Bootstrap/React-Bootstrap, Java + Spring Boot and MongoDB.",
+				imageSrc:
+					"https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-01.jpg",
+				imageAlt:
+					"Maple organizer base with slots, supporting white polycarbonate trays of various sizes.",
+				liveSiteLink: "",
+				gitHubRepository: "",
 			},
 		],
 	},
