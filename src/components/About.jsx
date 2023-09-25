@@ -3,17 +3,21 @@ import { CheckCircleIcon } from "@heroicons/react/20/solid";
 import headshot from "../assets/images/headshot.svg";
 
 const comptency = [
+	"Java",
+	"Javascript",
+	"Node.js",
+	"HTML + CSS",
 	"React",
 	"React Native",
-	"Java",
-	"Spring Boot",
 	"MongoDB",
 	"Heroku",
+	"GitHub",
+	"Vite",
 ];
 
 export default function About() {
 	return (
-		<div className="bg-gray-900 py-24 sm:py-32">
+		<div className="bg-gray-900 py-24 sm:py-32" id="aboutMe">
 			<div className="relative isolate">
 				<div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
 					<div className="mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
@@ -37,17 +41,19 @@ export default function About() {
 							</p>
 							<br />
 							<p className="text-lg leading-8 text-gray-300">
-								Post-grad, I attended a coding bootcamp in my hometown and
-								worked on a startup with a friend. I loved every second of it
-								(but unfortunately, the world shut down). This prompted me to go
-								back to school for computer science. Fast forward to today, I am
-								a few weeks away from completing the computer science bridge
-								program at Grand Canyon University and will be starting the
-								Master of Science in Computer Science program in January 2024.
+								Post-grad, I attended a coding bootcamp in my hometown, did some
+								freelance work and worked on a startup with a friend. I loved
+								every second of it (but unfortunately, the world shut down).
+								This prompted me to go back to school for computer science. Fast
+								forward to today, I am a few weeks away from completing the
+								computer science bridge program at Grand Canyon University and
+								will be starting the Master of Science in Computer Science
+								program in January 2024.
 							</p>
 							<br />
 							<p className="mt-2 text-lg leading-8 text-gray-300 font-medium">
-								Here are a few technologies I’ve been working with recently:
+								Here are a few languages, technologies and tools I’ve been
+								working with recently:
 							</p>
 							<ul
 								role="list"

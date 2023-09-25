@@ -2,6 +2,8 @@ import { FaceSmileIcon } from "@heroicons/react/24/outline";
 import NavigationBar from "./NavigationBar";
 import CodeSnippet from "./CodeSnippet";
 
+import resume from "../assets/files/resume.pdf";
+
 export default function Hero() {
 	return (
 		<div className="bg-white pb-32">
@@ -17,7 +19,9 @@ export default function Hero() {
 											What's new
 										</span>
 										<span className="inline-flex items-center space-x-2 text-sm font-bold leading-6 text-gray-600">
-											<span>Searching for Summer 2024 Internships</span>
+											<span>
+												Searching for Summer & Winter 2024 Internships
+											</span>
 											<FaceSmileIcon
 												className="h-5 w-5 text-gray-400"
 												aria-hidden="true"
@@ -32,13 +36,13 @@ export default function Hero() {
 									I am a dedicated computer science student that loves building
 									and designing things that live on the internet!{" "}
 									<span className="text-indigo-600 font-medium">
-										Currently, I am focused on obtaining a software engineering
-										internship for Summer 2024.
+										Currently, I am focused on obtaining software engineering
+										internships for both Summer & Winter 2024.
 									</span>
 								</p>
 								<div className="mt-10 flex items-center gap-x-6">
 									<a
-										href="#"
+										href={resume}
 										className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 										Download Resume
 									</a>

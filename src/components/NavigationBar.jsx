@@ -41,13 +41,19 @@ export default function NavigationBar() {
 					</button>
 				</div>
 				<div className="hidden lg:flex lg:gap-x-12">
-					<a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+					<a
+						href="#aboutMe"
+						className="text-sm font-semibold leading-6 text-gray-900">
 						About Me
 					</a>
-					<a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+					<a
+						href="#projects"
+						className="text-sm font-semibold leading-6 text-gray-900">
 						Projects
 					</a>
-					<a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+					<a
+						href="#contact"
+						className="text-sm font-semibold leading-6 text-gray-900">
 						Contact
 					</a>
 				</div>

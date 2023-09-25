@@ -1,49 +1,39 @@
 import { Fragment } from "react";
 import { Tab } from "@headlessui/react";
+import watchy from "../assets/images/watchy.jpg";
+import algo from "../assets/images/algo.jpg";
 
 const tabs = [
 	{
-		name: "Eazy Rezz",
+		name: "Watchy",
 		features: [
 			{
-				name: "Restaurant Booking Management",
-				description: "Null",
-				imageSrc:
-					"https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-02.jpg",
+				name: "E-Commerce Marketplace for Luxury Watches",
+				description:
+					"Developed a full-stack e-commerce platform enabling users to purchase luxury watches online, with seamless payment processing and product management.",
+				techStack:
+					"HTML, JavaScript, Java, React.js, Tailwind CSS, Stripe API, MongoDB, GitHub",
+				imageSrc: watchy,
 				imageAlt:
 					"Walnut organizer base with pen, sticky note, phone, and bin trays, next to modular drink coaster attachment.",
 				liveSiteLink: "",
-				gitHubRepository: "",
+				gitHubRepository: "https://github.com/kane-toomer/watchy",
 			},
 		],
 	},
 	{
-		name: "Library Genie",
+		name: "Algo-Sorter",
 		features: [
 			{
-				name: "Library Management System",
+				name: "Java Algorithm Sorter",
 				description:
-					" I built this project for a CS class in-order to get a better grasp of Java + MongoDB. By building this project, I obtained a solid understanding of ________.",
-				imageSrc:
-					"https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-03.jpg",
-				imageAlt:
-					"Walnut organizer base with white polycarbonate trays in the kitchen with various kitchen utensils.",
-			},
-		],
-	},
-	{
-		name: "Movie Critic",
-		features: [
-			{
-				name: "Movie Review Application",
-				description:
-					"This is a very basic movie review application that features a separation of concerns between the client code and the server code. I built this project in-order to learn SpringBoot. This project was built using React, Bootstrap/React-Bootstrap, Java + Spring Boot and MongoDB.",
-				imageSrc:
-					"https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-01.jpg",
-				imageAlt:
-					"Maple organizer base with slots, supporting white polycarbonate trays of various sizes.",
-				liveSiteLink: "",
-				gitHubRepository: "",
+					" I built this project for a CS class in-order to get a better grasp of algorithms and data structures using Java. By building this project, I obtained a solid understanding of the Bubble, Merge, Selection and Insertion Sort algorithms .",
+				techStack: "",
+				imageSrc: algo,
+				imageAlt: "Image of my algorithm sorter application.",
+				liveSiteLink:
+					"https://www.loom.com/share/2dc08a43b9694961b5cf52c9d7c762f4?sid=ebb70af2-8f97-46fd-bbb1-1370c0fd410e",
+				gitHubRepository: "https://github.com/kane-toomer/algo-sorter",
 			},
 		],
 	},
@@ -56,7 +46,7 @@ function classNames(...classes) {
 export default function Project() {
 	return (
 		<>
-			<div className="bg-white py-24">
+			<div className="bg-white py-24" id="projects">
 				<section
 					aria-labelledby="features-heading"
 					className="mx-auto max-w-7xl py-16 sm:px-2 lg:px-8">
@@ -115,6 +105,12 @@ export default function Project() {
 													<p className="mt-2 text-sm text-gray-500">
 														{feature.description}
 													</p>
+													<p className="mt-2 text-sm text-gray-500">
+														<span className="font-medium text-black">
+															Tech Stack:{" "}
+														</span>
+														{feature.techStack}
+													</p>
 													<div className="mt-10 flex items-center gap-x-6">
 														<a
 															href={feature.liveSiteLink}
@@ -130,7 +126,7 @@ export default function Project() {
 													</div>
 												</div>
 												<div className="lg:col-span-7">
-													<div className="aspect-h-1 aspect-w-2 overflow-hidden rounded-lg bg-gray-100 sm:aspect-h-2 sm:aspect-w-5">
+													<div className=" overflow-hidden rounded-lg bg-gray-100 ">
 														<img
 															src={feature.imageSrc}
 															alt={feature.imageAlt}
