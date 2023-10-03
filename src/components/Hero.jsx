@@ -48,7 +48,7 @@ export default function Hero() {
 									</a>
 									<a
 										href="https://github.com/kane-toomer"
-										className="text-sm font-semibold leading-6 text-gray-900">
+										className="text-sm font-semibold leading-6 text-gray-900 hover:underline">
 										View my GitHub <span aria-hidden="true">→</span>
 									</a>
 								</div>

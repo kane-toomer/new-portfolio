@@ -11,8 +11,7 @@ const tabs = [
 				name: "E-Commerce Marketplace for Luxury Watches",
 				description:
 					"Developed a full-stack e-commerce platform enabling users to purchase luxury watches online, with seamless payment processing and product management.",
-				techStack:
-					"HTML, JavaScript, Java, React.js, Tailwind CSS, Stripe API, MongoDB, GitHub",
+				techStack: "React.js, Tailwind CSS, Java, Stripe API, MongoDB, GitHub",
 				imageSrc: watchy,
 				imageAlt:
 					"Walnut organizer base with pen, sticky note, phone, and bin trays, next to modular drink coaster attachment.",
@@ -27,8 +26,8 @@ const tabs = [
 			{
 				name: "Java Algorithm Sorter",
 				description:
-					" I built this project for a CS class in-order to get a better grasp of algorithms and data structures using Java. By building this project, I obtained a solid understanding of the Bubble, Merge, Selection and Insertion Sort algorithms .",
-				techStack: "",
+					" I built this project for a CS class in-order to get a better grasp of algorithms and data structures using Java. By building this project, I obtained a solid understanding of the Bubble, Merge, Selection and Insertion Sort algorithms.",
+				techStack: "Java",
 				imageSrc: algo,
 				imageAlt: "Image of my algorithm sorter application.",
 				liveSiteLink:
@@ -119,7 +118,7 @@ export default function Project() {
 														</a>
 														<a
 															href={feature.gitHubRepository}
-															className="text-sm font-semibold leading-6 text-gray-900">
+															className="text-sm font-semibold leading-6 text-gray-900 hover:underline">
 															View GitHub Repository{" "}
 															<span aria-hidden="true">→</span>
 														</a>

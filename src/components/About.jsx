@@ -1,6 +1,6 @@
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
 
-import headshot from "../assets/images/headshot.svg";
+import resume from "../assets/files/resume.pdf";
 
 const comptency = [
 	"Java",
@@ -21,11 +21,11 @@ export default function About() {
 			<div className="relative isolate">
 				<div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
 					<div className="mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
-						<img
+						{/* <img
 							className="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm"
 							src={headshot}
 							alt=""
-						/>
+						/> */}
 						<div className="w-full flex-auto">
 							<h1 className="text-4xl font-bold tracking-tight text-white">
 								About me
@@ -68,11 +68,11 @@ export default function About() {
 									</li>
 								))}
 							</ul>
-							<div className="mt-10 flex">
+							<div className="mt-20 ">
 								<a
-									href="#"
-									className="text-sm font-semibold leading-6 text-indigo-400">
-									Download Resume <span aria-hidden="true">&rarr;</span>
+									href={resume}
+									className="text-md font-semibold leading-6 text-indigo-400 hover:underline">
+									Download Resume
 								</a>
 							</div>
 						</div>
