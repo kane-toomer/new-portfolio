@@ -11,7 +11,7 @@ const tabs = [
 				name: "E-Commerce Marketplace for Luxury Watches",
 				description:
 					"Developed a full-stack e-commerce platform enabling users to purchase luxury watches online, with seamless payment processing and product management.",
-				techStack: "React.js, Tailwind CSS, Java, Stripe API, MongoDB, GitHub",
+				techStack: "React.js, Tailwind CSS, Stripe API, Firebase, Heroku",
 				imageSrc: watchy,
 				imageAlt:
 					"Walnut organizer base with pen, sticky note, phone, and bin trays, next to modular drink coaster attachment.",
