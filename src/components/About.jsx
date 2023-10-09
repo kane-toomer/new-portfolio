@@ -9,7 +9,7 @@ const comptency = [
 	"HTML + CSS",
 	"React",
 	"React Native",
-	"MongoDB",
+	"Firebase",
 	"Heroku",
 	"GitHub",
 	"Vite",
