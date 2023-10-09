@@ -5,7 +5,7 @@ import algo from "../assets/images/algo.jpg";
 
 const tabs = [
 	{
-		name: "Watchy",
+		name: "Watchy (In Progress)",
 		features: [
 			{
 				name: "E-Commerce Marketplace for Luxury Watches",
